@@ -12,6 +12,7 @@ Reference or “get” information stored in a variable.
 //
 //
 Create a Variable: var 
+
     EXAMPLE: var myName = 'Arya';
              console.log(myName);
              // Output: Arya 
@@ -38,16 +39,19 @@ ANSWERS:
 Create a Variable let: 
 let was introduced in ES6 - The let keyword signals that the variable can be reassigned a different value.
 For EXAMPLE:
+
     let meal = 'Enchiladas';
     console.log(meal); // Output: Enchiladas
     meal = 'Burrito';
     console.log(meal); // Output: Burrito
     
 EXAMPLE of undefined:
+
     let price;
     console.log(price); // Output: undefined
     price = 350;
     console.log(price); // Output: 350
+    
 If we don’t assign a value to a variable declared using the let keyword, it automatically has a value of undefined.
 
 QUESTIONS:
@@ -85,6 +89,7 @@ You should see a different error this time: SyntaxError: Missing initializer in 
 //
 Mathematical Assignment Operators 
 For EXAMPLE:
+
     let w = 4;
     w = w + 1;
     console.log(w); // Output: 5
@@ -120,8 +125,10 @@ console.log('The value of quarterMe:', quarterMe);
 //
 The Increment and Decrement Operator:
 Other mathematical assignment operators include the increment operator (++) and decrement operator (--). 
-The increment operator will increase the value of the variable by 1. The decrement operator will decrease the value of the variable by 1. 
-For EXAMPLE:
+The increment operator will increase the value of the variable by 1. The decrement operator will decrease the value of the variable by 1.
+
+    For EXAMPLE:
+
     let a = 10;
     a++;
     console.log(a); // Output: 11
@@ -144,6 +151,7 @@ lostDollar--;
 //
 String Concatenation with Variables:
 The + operator can be used to combine two string values even if those values are being stored in variables:
+
     let myPet = 'armadillo';
     console.log('I own a pet ' + myPet + '.'); 
     // Output: 'I own a pet armadillo.' 
@@ -156,5 +164,14 @@ ANSWERS:
 let favouriteAnimal = 'Dog';
 console.log('My favourite animal: ' + favouriteAnimal);
 // Output: 'my favourite animal: Dog' 
+//
+//
+//
+String Interpolation:
+In the ES6 version of JavaScript, we can insert, or interpolate, variables into strings using template literals. Check out the following example where a template literal is used to log strings together For EXAMPLE:
 
+    const myPet = 'armadillo';
+    console.log(`I own a pet ${myPet}.`);
+    // Output: I own a pet armadillo.
+    
 
