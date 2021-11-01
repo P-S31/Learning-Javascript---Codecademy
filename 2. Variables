@@ -80,3 +80,81 @@ const testing;
 
 Declaring a const variable without a value (const testing;) 
 You should see a different error this time: SyntaxError: Missing initializer in const declaration (this is related to syntax). 
+//
+//
+//
+Mathematical Assignment Operators 
+For EXAMPLE:
+    let w = 4;
+    w = w + 1;
+    console.log(w); // Output: 5
+    
+    let w = 4;
+    w += 1;
+    console.log(w); // Output: 5
+    
+QUESTIONS:
+
+Q1 Use the += mathematical assignment operator to increase the value stored in levelUp by 5.
+Q2 Use the -= mathematical assignment operator to decrease the value stored in powerLevel by 100.
+Q3 Use the *= mathematical assignment operator to multiply the value stored in multiplyMe by 11.
+Q4 Use the /= mathematical assignment operator to divide the value stored in quarterMe by 4.
+
+ANSWERS: 
+let levelUp = 10;
+let powerLevel = 9001;
+let multiplyMe = 32;
+let quarterMe = 1152;
+
+levelUp += 5; 
+powerLevel -= 100;
+multiplyMe *= 11;
+quarterMe /= 4;
+
+console.log('The value of levelUp:', levelUp); 
+console.log('The value of powerLevel:', powerLevel); 
+console.log('The value of multiplyMe:', multiplyMe); 
+console.log('The value of quarterMe:', quarterMe);
+//
+//
+//
+The Increment and Decrement Operator:
+Other mathematical assignment operators include the increment operator (++) and decrement operator (--). 
+The increment operator will increase the value of the variable by 1. The decrement operator will decrease the value of the variable by 1. 
+For EXAMPLE:
+    let a = 10;
+    a++;
+    console.log(a); // Output: 11
+    
+    let b = 20;
+    b--;
+    console.log(b); // Output: 19
+    
+Q1 Using the increment operator, increase the value of gainedDollar.
+Q2 Using the decrement operator, decrease the value of lostDollar 
+
+ANSWERS: 
+let gainedDollar = 3;
+let lostDollar = 50;
+
+gainedDollar++;
+lostDollar--;
+//
+//
+//
+String Concatenation with Variables:
+The + operator can be used to combine two string values even if those values are being stored in variables:
+    let myPet = 'armadillo';
+    console.log('I own a pet ' + myPet + '.'); 
+    // Output: 'I own a pet armadillo.' 
+    
+QUESTIONS:
+Q1 Create a variable named favoriteAnimal and set it equal to your favorite animal.
+Q2 Use console.log() to print 'My favorite animal: ANIMAL' to the console. Use string concatenation so that ANIMAL is replaced with the value in your favoriteAnimal variable. 
+
+ANSWERS: 
+let favouriteAnimal = 'Dog';
+console.log('My favourite animal: ' + favouriteAnimal);
+// Output: 'my favourite animal: Dog' 
+
+
