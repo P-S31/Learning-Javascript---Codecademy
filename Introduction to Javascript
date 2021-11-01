@@ -1,4 +1,5 @@
 Console:
+// console.log();
 
 Use the console.log code in the editor to log your age to the console.
 console.log(6+6); 
@@ -6,5 +7,52 @@ console.log(6+6);
 On the next line, write another console.log to print out a different number representing the number of weeks you’ve been programming.
 console.log(1);
 
+Comments: 
+// or /* */
+A single line comment will comment out a single line and is denoted with two forward slashes // preceding it. 
+For Example:  
+        // Prints 5 to the console
+        console.log(5);
+        
+A multi-line comment will comment out multiple lines and is denoted with /* to begin the comment, and */ to end the comment.
+For Example: /*
+            This is all commented 
+            console.log(10);
+            None of this is going to run!
+            console.log(99);
+            */ 
+You can also use this syntax to comment something out in the middle of a line of code:
+For Example: 
+            console.log(/*IGNORED!*/ 5);  // Still just prints 5 
 
+Data Types: 
+ Examples ==
+  
+  Number: console.log(2011);
+  String: console.log('Javascript');
+  Boolean: true or false (yes or no questions)
+  Null: Absence of a value meaning 0 
+  Undefined: This data type is denoted by the keyword undefined (without quotes). It also represents the absence of a value though it has a different use than null.
+  Symbol: A newer feature to the language, symbols are unique identifiers, useful in more complex coding. No need to worry about these for now
+    // First 6 are primitive data types
+   
+  Object: Collections of related data.
+  
+Q1.Log the string 'JavaScript' to the console. 
+Q2.Log the number 2011 to the console.
+Q3.Print 'Woohoo! I love to code! #codecademy' to the console.
+Q4.Print the number 20.49 to the console.
+    
+A1. console.log('JavaScript');
+A2. console.log(2011);
+A3. console.log('Woohoo! I love to code! #codecademy');
+A4. console.log(20.49);
+  
+  
+
+    
+    
+    
+    
+    
 
