@@ -1,1 +1,1 @@
-# Learning-Javascript---Codecademy
+# Learning-Javascript-via-Codecademy
