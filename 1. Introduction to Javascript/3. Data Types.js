@@ -5,7 +5,7 @@
 // Boolean: true or false(yes or no questions)
 // Null: Absence of a value meaning 0
 // Undefined: This data type is denoted by the keyword undefined(without quotes).It also represents the absence of a value though it has a different use than null.
-//Symbol: A newer feature to the language, symbols are unique identifiers, useful in more complex coding.No need to worry about these for now
+// Symbol: A newer feature to the language, symbols are unique identifiers, useful in more complex coding.No need to worry about these for now
 // First 6 are primitive data types
 
 // Object: Collections of related data.
